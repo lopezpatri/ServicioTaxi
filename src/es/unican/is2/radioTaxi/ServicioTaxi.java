@@ -5,7 +5,7 @@ import java.util.Calendar;
 /**
  * Clase que representa un trayecto realizado por un taxi
  * @author IS2
- *
+ *  @version May 2015
  */
 public class ServicioTaxi {
 	

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project name="ServicioTaxi" default="run" basedir=".">
 
 	<property name="src" location="src"/>
@@ -24,7 +24,7 @@
 
 
 	<!--  Si no ponemos el fork se ejecuta en el mismo proceso de ant y muere -->
-	<target name="run" depends="compile">
+	<target name="run" depends="compile, unitTest">
 		<java classname="${mainClass}" fork="true">
 			<classpath path="${build}"/>
 		</java>
